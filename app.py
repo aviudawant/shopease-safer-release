@@ -1,4 +1,3 @@
-
 import os
 
 from flask import Flask, jsonify
@@ -11,7 +10,6 @@ ORDERS = {
     "1001": {"item": "Headphones", "status": "SHIPPED"},
     "1002": {"item": "Keyboard", "status": "PACKED"},
 }
-
 
 @app.route("/health")
 def health():
