@@ -1,4 +1,6 @@
+import pytest
 from app import app
+class TestApp:
 
 def test_health_is_up():
     response = app.test_client().get('/health')
